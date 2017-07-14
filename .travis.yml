@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: cOQK2TApsYFDLspY8gJsUeN9z5ojJaAY6ko1PBzqUrt7HAa1znWxZFUK+OKvDf3jZ9cKFBbf1+4s4g+rCdDapTuxD4yQGGrXbRpvt1zaHQ/kSBhG/Nkc/P25t8trOPU8DPRV+++bymaIBYLIeoFOY4s2jcVWxF28WX6JtQryq/PMIMpaK8lmEfeIqnGNUw/k/5mcxFVyiqa5VpARL+jizdJdYkV2vAMvAqHbvvyAhr8ctdxCqpnENtYuXRePOzugHB/w0+TRGZtusLcyvNykYiVg0stNLJgjOP+zHxKD9oE2gjbTaR1ix/nsVs73wC+sejE+urJCENttYamRw55+jeCmStcS79vXa0vBpgdTyo7+RRdEmgScpxoIRxK2qfWBi9r1lXYTfDoBhgl3fTdyig21VQwoMRZQpl3j0fM9ZIKF/u/I503XWE5xJEN9B5cd88wN+gED0qY+QoGdrCEqscw9Hc6PZgAmXHU5ULOpGtR82eU8nqNxiu7SRE9on34Xw4pmXUDDVODtmepPT3jsUlJMpmjwWA/aObY+rp0vX8T6eFhJENagb9yrDkKDRNDjz1QfH2QxQiU+61J78XTvSDxVn5khavSeT/arNGaDtTUVBuASe/OwDjMMO2M8tfKX796aptWVEK+oKD0PXuqBqV2HpsW+XqBaVlp1B2U7iFQ=
+  app: calm-ravine-29719
+  on:
+    repo: MattRDreyer/marvel_react_api
